@@ -15,7 +15,7 @@ A collection of web development projects built while studying Software Engineeri
 - Omnifood Landing Page
 - Chips Brand Website
 - Bakery Website
-- Real Estate Landing Page
+- Rian Lot Portfolio
 - E-Book Website
 - Sunlight Website
 
