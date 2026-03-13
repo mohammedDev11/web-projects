@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive lamp website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav--logo">SUN<span>LIGHT</span></a>
+        <div class="nav--menu" id="nav-menu">
+          <ul class="nav--list">
+            <!-- 01 -->
+            <li class="nav--item">
+              <a href="#home" class="nav--link active-link">Home</a>
+            </li>
+            <!-- 02 -->
+            <li class="nav--item">
+              <a href="#popular" class="nav--link">Popular</a>
+            </li>
+            <!-- 03 -->
+            <li class="nav--item">
+              <a href="#choose" class="nav--link">Choose</a>
+            </li>
+            <!-- 04 -->
+            <li class="nav--item">
+              <a href="#products" class="nav--link">Products</a>
+            </li>
+          </ul>
+          <!-- Close button -->
+          <div class="nav--close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav--buttons">
+         <!-- Theme change button -->
+         <i class="ri-moon-line change-theme" id="theme-button"></i>
+         <!-- Toggle button -->
+        <div class="nav--toggle" id="nav-toggle">
+         <i class="ri-menu-line"></i>
+       </div>
+        </div>
+        
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home--bg"></div>
+        <div class="home--container container grid">
+          <!-- 01 -->
+          <div class="home--content grid">
+            <div class="home--data">
+              <h3 class="home--subtitle">The best light bulbs</h3>
+
+              <h1 class="home--title">
+                Unique Light <br />
+                For You Home
+              </h1>
+
+              <div class="home--buttons">
+                <a href="#" class="button">Discover Now</a>
+                <a href="#" class="button--link"
+                  ><i class="ri-play-circle-line"></i>Watch Video</a
+                >
+              </div>
+            </div>
+            <!-- ------------ -->
+            <div class="home--info">
+              <!---------------01---------------->
+              <div>
+                <h3 class="home--info-title">9K<span>+</span></h3>
+                <span class="home--info-subtitle"
+                  >Premium <br />
+                  Product</span
+                >
+              </div>
+              <!---------------02---------------->
+              <div>
+                <h3 class="home--info-title">2K<span>+</span></h3>
+                <span class="home--info-subtitle"
+                  >Happy <br />
+                  Customer</span
+                >
+              </div>
+              <!---------------03---------------->
+              <div>
+                <h3 class="home--info-title">28<span>+</span></h3>
+                <span class="home--info-subtitle"
+                  >Awards <br />
+                  Winning</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 02 -->
+          <div class="home--image">
+            <div class="home--blob">
+              <img
+                src="assets/img/home-lamp.png"
+                alt="home image"
+                class="home--img"
+              />
+              <h1 class="home--blob-title">LIGHT</h1>
+            </div>
+            <div class="home--shadow"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <div class="popular--container container">
+          <div class="popular--data">
+            <h2 class="section--title">Popular Product</h2>
+            <p class="popular--description">
+              Find our best products faster and get the quality lights we have
+              for you.
+            </p>
+          </div>
+          <!--====-----=====-->
+          <div class="popular--content grid swiper">
+            <!-- 01 -->
+            <div class="swiper-wrapper">
+              <!-----------------card-1-------------------->
+              <article class="popular--card swiper-slide">
+                <div class="popular--blob">
+                  <img
+                    src="assets/img/modern-lamp.png"
+                    alt="popular image"
+                    class="popular--img"
+                  />
+                </div>
+
+                <h3 class="popular--name">Modern Light</h3>
+                <span class="popular--subtitle">Hanging Light</span>
+                <h3 class="popular--price"><span>$</span>14</h3>
+                <button class="popular--button">
+                  <i class="ri-add-line"></i>
+                </button>
+              </article>
+              <!-----------------card-2-------------------->
+              <article class="popular--card swiper-slide">
+                <div class="popular--blob">
+                  <img
+                    src="assets/img/industrial-lamp.png"
+                    alt="popular image"
+                    class="popular--img"
+                  />
+                </div>
+
+                <h3 class="popular--name">Industrial Light</h3>
+                <span class="popular--subtitle">Hanging Light</span>
+                <h3 class="popular--price"><span>$</span>20</h3>
+                <button class="popular--button">
+                  <i class="ri-add-line"></i>
+                </button>
+              </article>
+              <!-----------------card-3-------------------->
+              <article class="popular--card swiper-slide">
+                <div class="popular--blob">
+                  <img
+                    src="assets/img/superbolw-lamp.png"
+                    alt="popular image"
+                    class="popular--img"
+                  />
+                </div>
+
+                <h3 class="popular--name">Superbolw Light</h3>
+                <span class="popular--subtitle">Hanging Light</span>
+                <h3 class="popular--price"><span>$</span>18</h3>
+                <button class="popular--button">
+                  <i class="ri-add-line"></i>
+                </button>
+              </article>
+              <!-----------------card-4-------------------->
+              <article class="popular--card swiper-slide">
+                <div class="popular--blob">
+                  <img
+                    src="assets/img/ultrawide-lamp.png"
+                    alt="popular image"
+                    class="popular--img"
+                  />
+                </div>
+
+                <h3 class="popular--name">Ultrawide Light</h3>
+                <span class="popular--subtitle">Hanging Light</span>
+                <h3 class="popular--price"><span>$</span>16</h3>
+                <button class="popular--button">
+                  <i class="ri-add-line"></i>
+                </button>
+              </article>
+              <!-----------------card-5-------------------->
+              <article class="popular--card swiper-slide">
+                <div class="popular--blob">
+                  <img
+                    src="assets/img/roundness-light.png"
+                    alt="popular image"
+                    class="popular--img"
+                  />
+                </div>
+
+                <h3 class="popular--name">Roundness Light</h3>
+                <span class="popular--subtitle">Hanging Light</span>
+                <h3 class="popular--price"><span>$</span>17</h3>
+                <button class="popular--button">
+                  <i class="ri-add-line"></i>
+                </button>
+              </article>
+            </div>
+            <!-- 02 -->
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <!-- 03 -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CHOOSE ====================-->
+      <section class="choose section" id="choose">
+        <div class="choose--container container grid">
+          <!-- 01 -->
+          <div class="choose--image">
+            <div class="choose--blob">
+              <img
+                src="assets/img/choose-lamp.png"
+                alt="choose image"
+                class="choose--img"
+              />
+              <h1 class="choose--blob-title">LIGHT</h1>
+            </div>
+            <div class="choose--shadow"></div>
+          </div>
+          <!-- 02 -->
+          <div class="choose--content">
+            <div class="choose--data">
+              <h2 class="section--title">Why Choose Us</h2>
+              <p class="choose--description">
+                Our products have won numerous awards and we can guarantee the
+                unlimited quality of our products.
+              </p>
+            </div>
+            <div class="choose--fag">
+              <!--------------Item-1--------------->
+              <div class="choose--fag-item">
+                <div class="choose--fag-header">
+                  <div class="choose--fag-icon">
+                    <i class="ri-add-line"></i>
+                  </div>
+                  <h3 class="choose--fag-title">Frequently New Design</h3>
+                </div>
+                <div class="choose--fag-content">
+                  <p class="choose--fag-description">
+                    We make new designs every year, fashion designs, trending
+                    and of the best quality.
+                  </p>
+                </div>
+              </div>
+              <!--------------Item-2--------------->
+              <div class="choose--fag-item">
+                <div class="choose--fag-header">
+                  <div class="choose--fag-icon">
+                    <i class="ri-add-line"></i>
+                  </div>
+                  <h3 class="choose--fag-title">Original Production</h3>
+                </div>
+                <div class="choose--fag-content">
+                  <p class="choose--fag-description">
+                    We are the industrial chain of quality lighting products and
+                    offer the most advantageous price.
+                  </p>
+                </div>
+              </div>
+              <!--------------Item-3--------------->
+              <div class="choose--fag-item">
+                <div class="choose--fag-header">
+                  <div class="choose--fag-icon">
+                    <i class="ri-add-line"></i>
+                  </div>
+                  <h3 class="choose--fag-title">Production With Large Stock</h3>
+                </div>
+                <div class="choose--fag-content">
+                  <p class="choose--fag-description">
+                    You will not be left without the lamp you chose, we have a
+                    large stock possible in all models.
+                  </p>
+                </div>
+              </div>
+              <!--------------Item-4--------------->
+              <div class="choose--fag-item">
+                <div class="choose--fag-header">
+                  <div class="choose--fag-icon">
+                    <i class="ri-add-line"></i>
+                  </div>
+                  <h3 class="choose--fag-title">
+                    Professional Quality Control
+                  </h3>
+                </div>
+                <div class="choose--fag-content">
+                  <p class="choose--fag-description">
+                    Our quality control does everything possible to send you the
+                    best possible product for your home.
+                  </p>
+                </div>
+              </div>
+              <!--------------done--------------->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FEATURES ====================-->
+      <section class="features section">
+        <div class="features--container container grid">
+          <!-- 01 -->
+          <div class="features--image">
+            <div class="features--blob">
+              <img
+                src="assets/img/features-lamp.png"
+                alt="Features Image"
+                class="features--img"
+              />
+              <h1 class="features--blob-title">LIGHT</h1>
+            </div>
+            <div class="features--shadow"></div>
+          </div>
+          <!-- 02 -->
+          <div class="features--content">
+            <div class="features--data">
+              <h2 class="section--title">Latest Features</h2>
+              <p class="features--description">
+                We always provide the latest and best features for your
+                customer, don't worry, we provide the latest technology for you.
+              </p>
+            </div>
+
+            <div class="features--info">
+              <!-------------card-1-------------->
+              <div class="features--info-card">
+                <h3 class="features--info-title">
+                  Voltage <br />
+                  Settings
+                </h3>
+              </div>
+              <!-------------card-2-------------->
+              <div class="features--info-card">
+                <h3 class="features--info-title">
+                  Application <br />
+                  Control
+                </h3>
+              </div>
+              <!-------------card-3-------------->
+              <div class="features--info-card">
+                <h3 class="features--info-title">
+                  Voice <br />
+                  Control
+                </h3>
+              </div>
+              <!-------------card-4-------------->
+              <div class="features--info-card">
+                <h3 class="features--info-title">
+                  Schedule <br />
+                  Settings
+                </h3>
+              </div>
+              <!--------------done--------------->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        <div class="products--container container grid">
+          <!-- 01 -->
+          <div class="products--data">
+            <h2 class="section--title">Our Product</h2>
+            <p class="products--description">
+              Discover all our unique products that are suitable for your home.
+            </p>
+          </div>
+          <!-- 02 -->
+          <div class="products--content grid">
+            <!-------------card-1--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/modern-lamp.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Modern Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>14</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-2--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/industrial-lamp.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Industrial Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>20</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-3--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/superbolw-lamp.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Superbolw Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>18</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-4--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/ultrawide-lamp.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Ultrawide Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>16</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-5--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/roundness-light.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Roundness Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>17</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-6--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/stickness-light.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Stickness Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>28</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-7--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/superjet-light.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Superjet Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>15</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!-------------card-8--------------->
+            <article class="products--card">
+              <div class="products--blob">
+                <img
+                  src="assets/img/nakedness-lamp.png"
+                  alt="products image"
+                  class="products--img"
+                />
+              </div>
+              <h3 class="products--name">Nakedness Light</h3>
+              <span class="products--subtitle">Hanging Light</span>
+              <h3 class="products--price"><span>$</span>10</h3>
+              <button class="products--button">
+                <i class="ri-add-line"></i>
+              </button>
+            </article>
+            <!--------------done---------------->
+          </div>
+        </div>
+      </section>
+
+      <!--==================== JOIN ====================-->
+      <section class="join section">
+        <div class="join--container container grid">
+          <!-- 01 -->
+          <div class="join--bg grid">
+            <!-- sub-o1 -->
+            <div class="join--image">
+              <div class="join--blob">
+                <img
+                  src="assets/img/join-lamp.png"
+                  alt="join image"
+                  class="join--img"
+                />
+                <h1 class="join--blob-title">LIGHT</h1>
+              </div>
+              <div class="join--shadow"></div>
+            </div>
+            <!-- sub-o2 -->
+            <div class="join--content grid">
+              <!-- sub-sub-01 -->
+              <div class="join--data">
+                <h2 class="section--title">Get Started</h2>
+                <p class="join--description">
+                  Do not miss it, join us and get <br />
+                  interesting discounts with us.
+                </p>
+              </div>
+              <!-- sub-sub-02 -->
+              <form action="" class="join--form">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="join--input"
+                />
+                <button class="button join--button">Join Now</button>
+              </form>
+            </div>
+          </div>
+          <!-- 02 -->
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer--container container grid">
+        <!-- 01 -->
+        <div class="footer--content grid">
+          <!-- sub-01 -->
+          <div>
+            <a href="#" class="footer--logo">SUN<span>LIGHT</span></a>
+            <div class="footer--description">
+              We have a vision to make <br />
+              lighting evenly distributed to all <br />
+              parts of the earth.
+            </div>
+          </div>
+          <!-- sub-02 -->
+          <div class="footer--data grid">
+            <!-- sub-sub-01 -->
+            <div>
+              <h3 class="footer--title">About</h3>
+              <ul class="footer--links">
+                <!-- link-01 -->
+                <li>
+                  <a href="#" class="footer--link">About Us </a>
+                </li>
+                <!-- link-02 -->
+                <li>
+                  <a href="#" class="footer--link">Features </a>
+                </li>
+                <!-- link-03 -->
+                <li>
+                  <a href="#" class="footer--link">News & Blog</a>
+                </li>
+              </ul>
+            </div>
+            <!-- sub-sub-02 -->
+            <div>
+              <h3 class="footer--title">Movement</h3>
+              <ul class="footer--links">
+                <!-- link-01 -->
+                <li>
+                  <a href="#" class="footer--link">What Sunlight </a>
+                </li>
+                <!-- link-02 -->
+                <li>
+                  <a href="#" class="footer--link">Support Us</a>
+                </li>
+              </ul>
+            </div>
+            <!-- sub-sub-03 -->
+            <div>
+              <h3 class="footer--title">Company</h3>
+              <ul class="footer--links">
+                <!-- link-01 -->
+                <li>
+                  <a href="#" class="footer--link">Why Sunlight </a>
+                </li>
+                <!-- link-03 -->
+                <li>
+                  <a href="#" class="footer--link">Capital </a>
+                </li>
+                <!-- link-03 -->
+                <li>
+                  <a href="#" class="footer--link">Security</a>
+                </li>
+              </ul>
+            </div>
+            <!-- sub-sub-04 -->
+            <div>
+              <h3 class="footer--title">Follow Us</h3>
+              <div class="footer--social">
+               <a href="https://www.facebook.com/" target="_blank" class="footer--social-link">
+                  <i class="ri-facebook-circle-line"></i>
+               </a>
+               <a href="https://www.instagram.com/" target="_blank" class="footer--social-link">
+                  <i class="ri-instagram-line"></i>
+               </a>
+               <a href="https://youtube.com/" target="_blank" class="footer--social-link">
+                  <i class="ri-youtube-line"></i>
+               </a>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 02 -->
+        <div class="footer--group">
+         <div class="footer--terms">
+            <a href="#">Terms & Agreements
+               </a>
+            <a href="#">Privacy Policy</a>
+         </div>
+         <span class="footer--copy">
+            &#169; Copyright Bedimcode. All rights reserved
+         </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive bakery website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav--logo">Bakery</a>
+
+        <div class="nav--menu" id="nav-menu">
+          <ul class="nav--list">
+            <li class="nav--item">
+              <a href="#home" class="nav--link active-link">Home</a>
+            </li>
+
+            <li class="nav--item">
+              <a href="#new" class="nav--link">News</a>
+            </li>
+
+            <li class="nav--item">
+              <a href="#about" class="nav--link">About Us</a>
+            </li>
+
+            <li class="nav--item">
+              <a href="#favorite" class="nav--link">Favorites</a>
+            </li>
+
+            <li class="nav--item">
+              <a href="#visit" class="nav--link">Location</a>
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav--close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <img src="assets/img/bread-4.png" alt="" class="nav--img-1" />
+          <img src="assets/img/bread-1.png" alt="" class="nav--img-2" />
+        </div>
+
+        <!-- toggele button -->
+        <div class="nav--toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img src="assets/img/home-bg.jpg" alt="image" class="home--pg" />
+
+        <div class="home--shadow"></div>
+
+        <div class="home--container container grid">
+          <!-- 01 -->
+          <div class="home--data">
+            <h1 class="home--title">
+              Select The Best <br />
+              Quality Breads
+            </h1>
+
+            <a href="#" class="button">Select Breads</a>
+
+            <img src="assets/img/bread-1.png" alt="image" class="home--bread" />
+          </div>
+
+          <!-- 02 -->
+          <div class="home--image">
+            <img
+              src="assets/img/home-bread.png"
+              alt="image"
+              class="home--img"
+            />
+          </div>
+
+          <!-- 03 -->
+          <footer class="home--footer">
+            <div class="home--location">
+              <i class="ri-map-pin-line"></i>
+              <span
+                >AV. The Sun #321 <br />
+                Lima Peru</span
+              >
+            </div>
+
+            <div class="home--social">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="ri-facebook-circle-line"></i
+              ></a>
+
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="ri-instagram-line"></i
+              ></a>
+
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="ri-youtube-line"></i
+              ></a>
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!--==================== NEWS ====================-->
+      <section class="new section" id="new">
+        <h2 class="section--title">New Breads</h2>
+
+        <div class="new--container container grid">
+          <!-- 01 -->
+          <div class="new--content grid">
+            <!-- card 1 -->
+            <article class="new--card">
+              <div class="new--data">
+                <h2 class="new--title">Rye Bread</h2>
+                <p class="new--description">
+                  Baked with healthy, gluten-free sourdough for good nutrition.
+                </p>
+              </div>
+
+              <img
+                src="assets/img/new-bread-1.png"
+                alt="image"
+                class="new--img"
+              />
+            </article>
+
+            <!-- card 2 -->
+            <article class="new--card">
+              <div class="new--data">
+                <h2 class="new--title">Whole Grain Bread</h2>
+                <p class="new--description">
+                  Crispy and homemade prepared from organic yeast-free flour.
+                </p>
+              </div>
+
+              <img
+                src="assets/img/new-bread-2.png"
+                alt="image"
+                class="new--img"
+              />
+            </article>
+
+            <!-- card 3 -->
+            <article class="new--card">
+              <div class="new--data">
+                <h2 class="new--title">Multigrain Bread</h2>
+                <p class="new--description">
+                  Tasty and made with different natural grains from the
+                  countryside.
+                </p>
+              </div>
+
+              <img
+                src="assets/img/new-bread-3.png"
+                alt="image"
+                class="new--img"
+              />
+            </article>
+          </div>
+          <!-- 02 -->
+          <a href="#" class="new--button button">See More Breads</a>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about--container container grid">
+          <!-- 01 -->
+          <div class="about--data">
+            <h2 class="section--title">About us</h2>
+
+            <p class="about--description">
+              We prepare all types of bread that are made at home, maintaining
+              the tradition of using only the best ingredients made with local
+              products whenever possible. We have an extensive line of freshly
+              prepared bakery and coffee products.
+            </p>
+
+            <a href="#" class="button">Know More</a>
+
+            <img src="assets/img/bread-2.png" alt="" class="about--bread" />
+          </div>
+          <!-- 02 -->
+          <img
+            src="assets/img/about-bread.png"
+            alt="image"
+            class="about--img"
+          />
+        </div>
+      </section>
+
+      <!--==================== FAVORITES ====================-->
+      <section class="favorite section" id="favorite">
+        <h2 class="section--title">Customer Favorites</h2>
+
+        <div class="favorite--container container grid">
+          <!-- 01 -->
+          <article class="favorite--card">
+            <img
+              src="assets/img/favorite-bread-1.png"
+              alt="image"
+              class="favorite--img"
+            />
+
+            <div class="favorite--data">
+              <h2 class="favorite--title">Whole Grain</h2>
+
+              <span class="favorite--subtitle">Bread</span>
+
+              <h3 class="favorite--price">$6.00</h3>
+            </div>
+
+            <button class="favorite--button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <!-- 02 -->
+          <article class="favorite--card">
+            <img
+              src="assets/img/favorite-bread-2.png"
+              alt="image"
+              class="favorite--img"
+            />
+
+            <div class="favorite--data">
+              <h2 class="favorite--title">Rye</h2>
+
+              <span class="favorite--subtitle">Bread</span>
+
+              <h3 class="favorite--price">$8.00</h3>
+            </div>
+
+            <button class="favorite--button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <!-- 03 -->
+          <article class="favorite--card">
+            <img
+              src="assets/img/favorite-bread-3.png"
+              alt="image"
+              class="favorite--img"
+            />
+
+            <div class="favorite--data">
+              <h2 class="favorite--title">Wheat</h2>
+
+              <span class="favorite--subtitle">Bread</span>
+
+              <h3 class="favorite--price">$3.00</h3>
+            </div>
+
+            <button class="favorite--button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <!-- 04 -->
+          <article class="favorite--card">
+            <img
+              src="assets/img/favorite-bread-4.png"
+              alt="image"
+              class="favorite--img"
+            />
+
+            <div class="favorite--data">
+              <h2 class="favorite--title">Multigrain</h2>
+
+              <span class="favorite--subtitle">Bread</span>
+
+              <h3 class="favorite--price">$5.00</h3>
+            </div>
+
+            <button class="favorite--button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <!-- 05 -->
+          <article class="favorite--card">
+            <img
+              src="assets/img/favorite-bread-5.png"
+              alt="image"
+              class="favorite--img"
+            />
+
+            <div class="favorite--data">
+              <h2 class="favorite--title">Sourdough</h2>
+
+              <span class="favorite--subtitle">Bread</span>
+
+              <h3 class="favorite--price">$7.00</h3>
+            </div>
+
+            <button class="favorite--button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <!-- 06 -->
+          <article class="favorite--card">
+            <img
+              src="assets/img/favorite-bread-6.png"
+              alt="image"
+              class="favorite--img"
+            />
+
+            <div class="favorite--data">
+              <h2 class="favorite--title">French</h2>
+
+              <span class="favorite--subtitle">Bread</span>
+
+              <h3 class="favorite--price">$3.00</h3>
+            </div>
+
+            <button class="favorite--button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== VISIT ====================-->
+      <section class="visit section" id="visit">
+        <div class="visit--container">
+          <img src="assets/img/visit-bg.jpg" alt="image" class="visit--bg" />
+          <div class="visit--shadow"></div>
+
+          <div class="visit--content container grid">
+            <!-- 01 -->
+            <div class="visit--data">
+              <h2 class="section--title">Visit Us</h2>
+
+              <p class="visit--description">
+                Discover the best bread, we look forward to your visit.
+              </p>
+
+              <a href="#" class="button">See Location</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer--container container grid">
+        <!-- number 1 -->
+        <div>
+          <a href="#" class="footer--logo">Bakery</a>
+          <p class="footer--description">
+            Discover the best bread, we look forward to your visit.
+          </p>
+        </div>
+        <!-- number 2 -->
+        <div class="footer--content grid">
+          <!-- 01 -->
+          <div>
+            <h3 class="footer--title">Address</h3>
+
+            <ul class="footer--list">
+              <li>
+                <address class="footer--info">
+                  AV. The Sun #321 <br />
+                  Lima Peru
+                </address>
+              </li>
+
+              <li>
+                <address class="footer--info">9AM - 11PM</address>
+              </li>
+            </ul>
+          </div>
+          <!-- 02 -->
+          <div>
+            <h3 class="footer--title">Contact Me</h3>
+
+            <ul class="footer--list">
+              <li>
+                <address class="footer--info">bakery@email.com</address>
+              </li>
+
+              <li>
+                <address class="footer--info">+00 987 654 321</address>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 03 -->
+          <div>
+            <h3 class="footer--title">Follow Us</h3>
+
+            <div class="footer--social">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="ri-youtube-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- number 3 -->
+        <img src="assets/img/bread-4.png" alt="image" class="footer--img-1" />
+        <img src="assets/img/bread-3.png" alt="image" class="footer--img-2" />
+      </div>
+
+      <span class="footer--copy">&#169; All Rights Reserved By Bedimcode</span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
